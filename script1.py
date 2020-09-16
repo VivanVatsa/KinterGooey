@@ -8,8 +8,8 @@ window = Tk()
 
 def km_2_miles():
     # print("Success!")
-    print(e1_value.get())
-    miles = e1_value.get()*1.6
+    # print(e1_value.get())
+    miles = float(e1_value.get())*1.6
     t1.insert(END,miles)
 b1 = Button(window, text="Execute", command=km_2_miles)
 # b1.pack()
